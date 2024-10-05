@@ -8,11 +8,11 @@ class Doctor{
   String? get gender=>this._gender=gender;
   
   Map<String,dynamic> get map{
-  map {"name":_name;"age"_age,"gender":_gender};
+  retur{"name":_name;"age"_age,"gender":_gender};
   }
 
 }
 void main(){
-  Doctor d= Doctor();
+  Doctor d= Doctor("suresh",33,"gender");
   print(d.map);
 }
