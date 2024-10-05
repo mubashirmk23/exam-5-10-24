@@ -8,7 +8,7 @@ class Doctor{
   String? get gender=>this._gender=gender;
   
   Map<String,dynamic> get map{
-  retur{"name":_name;"age"_age,"gender":_gender};
+  return{"name":_name;"age"_age,"gender":_gender};
   }
 
 }
